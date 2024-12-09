@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>我的聊天機器人網站</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        nav {
+            background-color: #444;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .content {
+            padding: 20px;
+            text-align: center;
+        }
+        iframe {
+            width: 100%;
+            height: 700px;
+            border: none;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>歡迎來到我的聊天機器人網站</h1>
+        <p>這是一個與聊天機器人互動的網站</p>
+    </header>
+
+    <nav>
+        <a href="#home">首頁</a>
+        <a href="#about">關於我</a>
+        <a href="#contact">聯繫我們</a>
+    </nav>
+
+    <div class="content" id="home">
+        <h2>聊天機器人</h2>
+        <p>點擊下面的區塊來開始與機器人聊天！</p>
+        <!-- 嵌入聊天機器人 -->
+        <iframe
+            src="https://udify.app/chatbot/jr8wzFFLHU1CPHyj"
+            style="width: 100%; height: 700px; min-height: 700px"
+            frameborder="0"
+            allow="microphone">
+        </iframe>
+    </div>
+
+    <div class="content" id="about">
+        <h2>關於我</h2>
+        <p>這裡可以介紹你自己或你的網站目的。</p>
+    </div>
+
+    <div class="content" id="contact">
+        <h2>聯繫我們</h2>
+        <p>這裡可以放聯繫表單或聯繫方式。</p>
+    </div>
+
+    <footer>
+        <p>© 2024 我的聊天機器人網站. 版權所有</p>
+    </footer>
+
+</body>
+</html>
